@@ -1,0 +1,11 @@
+.tercercuadro {
+    background-image: url("../fondo2.jpg");
+    background-size: cover;
+    opacity: .8;
+    color: aliceblue;
+}
+
+#conformacion caption {
+    color: #c51b1b;
+    font-size: 7vh;
+}

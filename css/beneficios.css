@@ -1,20 +1,25 @@
 .sct-beneficios {
-    height: 83vh;
+    /* height: 83vh; */
     margin: 3%;
-    background-color: rgba(253, 253, 253, 0.897);
 }
 
 section h2 {
     font-size: 4vh;
-    color: rgb(4, 8, 8);
+    color: rgb(223, 227, 230);
     border-bottom: 1px solid black;
     padding: 2%;
 }
 
 p {
     padding: 1%;
+    color: white;
 }
 
 .puntos {
     padding: 1%;
+    color: white;
+}
+
+.lineal {
+    border: 1px solid rgb(255, 252, 252);
 }
