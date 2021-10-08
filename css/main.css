@@ -17,28 +17,21 @@ header {
     margin: 2%;
 }
 
-.nav-header a:hover {
-    color: #52D1DC;
+#nav-header a:hover {
+    color: #c51b1b;
 }
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #04050586;
+    background-color: #000000;
+    margin: 0;
+    height: 170vh;
 }
 
-h2 {
+h1 {
     text-align: center;
     color: #c51b1b;
-    font-size: xxx-large;
-}
-
-section h3 {
-    color: rgb(4, 8, 8);
-    border-bottom: 1px solid black;
-}
-
-body {
-    margin: 0;
+    font-size: 7vh;
 }
 
 
@@ -46,19 +39,19 @@ body {
 
 .sct-institucion {
     padding: 2%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url("../violin.jpg");
-    background-size: cover;
+    background-size: contain;
     opacity: .8;
-    height: 81vh;
+    height: 83vh;
 }
 
 #institucion-texto {
     background-color: black;
     color: white;
     opacity: .9;
-    padding: 2%;
-    margin: 0 auto;
+    padding: 1%;
+    margin: 1%;
 }
 
 #conformacion caption {
