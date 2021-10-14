@@ -1,0 +1,48 @@
+.sct-programas {
+    padding: 2%;
+    background-attachment: scroll;
+    background-image: url("../fondo4.jpeg");
+    background-size: auto;
+    opacity: .8;
+}
+
+section h3 {
+    font-size: 5vh;
+    color: #941616;
+    text-shadow: #0c0909;
+    border-bottom: 1px solid black;
+    padding: 2%;
+    font-weight: bolder;
+    text-shadow: 3px 3px 7px rgb(255, 255, 255), -3px -3px 7px rgb(255, 255, 255), -3px 3px 7px rgb(255, 255, 255), 3px -3px 7px rgb(255, 255, 255);
+}
+
+h4 {
+    text-align: center;
+    color: rgb(250, 248, 248);
+    text-shadow: 2px 2px 5px rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+#programa-texto #pp {
+    padding: 1%;
+    color: rgb(250, 248, 248);
+    text-shadow: 3px 3px 7px rgb(7, 7, 7), -3px -3px 7px rgb(7, 7, 7), -3px 3px 7px rgb(7, 7, 7), 3px -3px 7px rgb(7, 7, 7);
+    font-weight: bold;
+    background-color: #0c0909c2;
+}
+
+.triprogram {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 2%;
+}
+
+.miniprogram {
+    margin: 3%;
+    background-color: #941616;
+    padding: 5%;
+}
+
+.miniprogram p {
+    text-shadow: 1px 1px 4px rgb(7, 7, 7);
+}
