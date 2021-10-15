@@ -1,52 +1,29 @@
-.sct-contacto form {
-    width: 50%;
-    padding: 5%;
-    float: left;
+h5 {
+    text-align: center;
+    color: #c51b1b;
+    font-size: 7vh;
 }
 
-.sct-contacto form h1 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.sct-contacto form div {
-    margin-bottom: 30px;
+.cuadrote {
+    padding: 2%;
+    text-align: center;
+    color: aliceblue;
 }
 
 .sct-contacto form label {
     display: inline-block;
-    width: 160px;
+    width: 20%;
+    text-align: left;
 }
 
 .sct-contacto form div input {
-    height: 30px;
-    width: 200px;
+    height: 20%;
+    width: 30%;
+    padding: 1%;
 }
 
 .sct-contacto form div textarea {
-    height: 100px;
-    width: 206px;
-}
-
-.sct-contacto form div .textarea-label {
-    padding: 67px 0;
-}
-
-.sct-contacto form .textarea-container {
-    display: flow-root;
-}
-
-.sct-contacto form .textarea-container label {
-    display: block;
-    float: left;
-    padding: 40px 0;
-    width: 160px;
-}
-
-.sct-contacto form div .textarea-container textarea {
-    display: block;
-    float: left;
-    height: 150px;
-    width: 200px;
+    height: 40%;
+    padding: 2%;
+    width: 28.2%;
 }

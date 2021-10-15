@@ -1,11 +1,38 @@
-.tercercuadro {
+.orquestal {
     background-image: url("../fondo2.jpg");
     background-size: cover;
     opacity: .8;
+}
+
+.conforcuadro {
     color: aliceblue;
+    padding: 1%;
+}
+
+#conformacion caption {
+    background-color: #070707ec;
+    padding: 1%;
+}
+
+#conformacion {
+    padding: 4%;
+    border-color: aliceblue;
+    background-color: #070707ec;
+}
+
+table th {
+    border: blanchedalmond solid;
+    margin: 5%;
+}
+
+tbody {
+    text-align: center;
+    border: blanchedalmond solid;
 }
 
 #conformacion caption {
     color: #c51b1b;
-    font-size: 7vh;
+    font-size: 5vh;
+    font-weight: bold;
+    padding: 5%;
 }

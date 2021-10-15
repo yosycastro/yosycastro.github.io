@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/beneficios.css">
     <link rel="stylesheet" href="css/programas.css">
     <link rel="stylesheet" href="css/conformacion.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Clases de Música</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -99,10 +100,13 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="tercercuadro">
+        <section class="orquestal">
+            <div class="conforcuadro">
                 <table id="conformacion">
                     <caption>Conformación Orquestal de la Institución</caption>
+                    <p>
+                        La institución cuenta con una orquesta estudiantil, es parte de los programas establecidos para ayudar al crecimiento integral de cada integrante</p>
+                    </p>
                     <thead>
                         <th>Instrumento</th>
                         <th>Cantidad de estudiantes</th>
@@ -110,67 +114,73 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td> <img src="limom.png" alt=""> Violin 1</td>
+                            <td> Violin 1</td>
                             <td>10</td>
                             <td>Ayer</td>
                         </tr>
                         <tr>
-                            <td><img src="sanjose.png" alt=""> Violin 2</td>
+                            <td> Violin 2</td>
                             <td>20</td>
                             <td>Ayer</td>
                         </tr>
                         <tr>
-                            <td><img src="alajuela.png" alt=""> Cello</td>
+                            <td> Cello</td>
                             <td>16</td>
                             <td>Ayer</td>
                         </tr>
                         <tr>
-                            <td><img src="heredia.png" alt=""> Trompeta</td>
+                            <td> Trompeta</td>
                             <td>10</td>
                             <td>Ayer</td>
                         </tr>
                         <tr>
-                            <td><img src="heredia.png" alt=""> Trompeta</td>
+                            <td>Trompeta</td>
                             <td>10</td>
                             <td>Ayer</td>
                         </tr>
                     </tbody>
+                </table>
             </div>
-            </table>
-
         </section>
-
         </section>
         </section>
         <section class="sct-contacto" id="contact">
             <form>
-                <h1>Contáctenos</h1>
-                <div>
-                    <label for="txt-nombre">Nombre:</label>
-                    <input type="text" id="txt-nombre" required>
-                </div>
-                <div>
-                    <label for="txt-telefono">Teléfono:</label>
-                    <input type="tel" id="txt-telefono" required>
-                </div>
-                <div>
-                    <label for="txt-correo">Correo electrónico:</label>
-                    <input type="mail" id="txt-correo" required>
-                </div>
+                <h5>Contáctenos</h5>
+                <div class="cuadrote">
+                    <div>
+                        <label for="txt-nombre">Nombre:</label>
+                        <input type="text" id="txt-nombre" required>
+                    </div>
+                    <div>
+                        <label for="txt-telefono">Teléfono:</label>
+                        <input type="tel" id="txt-telefono" required>
+                    </div>
+                    <div>
+                        <label for="txt-correo">Correo electrónico:</label>
+                        <input type="mail" id="txt-correo" required>
+                    </div>
 
-                <div class="textarea-container">
-                    <label for="txt-comentario">Comentario:</label>
-                    <textarea id="txt-comentario" required></textarea>
+                    <div class="textarea-container">
+                        <label for="txt-comentario">Comentario:</label>
+                        <textarea id="txt-comentario" required></textarea>
+                    </div>
+                    <div>
+                        <button type="button" id="btn-enviar">Enviar</button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" id="btn-enviar">Enviar</button>
-                </div>
-
             </form>
-            <div class="imagen-container"></div>
+            <div class="imagen-container">
+
+            </div>
 
         </section>
     </main>
+    <footer>
+        <div class="footer-final">
+            <h6>Copyright: © 2021</h6>
+        </div>
+    </footer>
 </body>
 
 </html>

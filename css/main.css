@@ -6,7 +6,6 @@ header {
 
 .container-header {
     width: 100%;
-    height: 70px;
 }
 
 #nav-header a {
@@ -52,4 +51,24 @@ h1 {
     opacity: .9;
     padding: 1%;
     margin: 1%;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #181a1a;
+    text-align: center;
+    padding: 0.01%;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 30%;
+    padding: 0.5%;
+    background-color: #232525;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #c51b1b;
 }
